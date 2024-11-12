@@ -1,7 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react'
 import Termek from './Termek'
-import { ApiContext } from '../contexts/ApiContext'
-
+import { ApiContext } from '../../contexts/ApiContext'
 function Termekek() {
   const {termekLista, kategoriak} = useContext(ApiContext)
   const [kivalasztottKategoria, setKivalasztottKategoria] = useState('')

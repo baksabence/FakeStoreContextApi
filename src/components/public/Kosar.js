@@ -1,4 +1,4 @@
-import { KosarContext } from '../contexts/KosarContext'
+import { KosarContext } from '../../contexts/KosarContext'
 import React, { useContext } from 'react'
 import KosarElem from './KosarElem'
 
